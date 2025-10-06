@@ -8,6 +8,9 @@ void main() {
   test('El arreglo no puede tener menos de 3 paredes', () async {
     expect(calcularagua([5,5]),equals(0));
   });
+  test('Ejemplo simple', () async {
+    expect(calcularagua([5,0,5]),equals(5));
+  });
   
 }
   
