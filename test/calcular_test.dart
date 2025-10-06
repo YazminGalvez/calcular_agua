@@ -20,6 +20,9 @@ void main() {
   test('Ejemplo cuando las  paredes estan en el mismo nivel', () async {
     expect(calcularagua([5,5,5]),equals(0));
   });
+  test('Ejemplo con numeros negativos', () async {
+    expect(calcularagua([-5,0,0]),equals(0));
+  });
   
 }
   

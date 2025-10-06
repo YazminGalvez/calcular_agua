@@ -1,4 +1,9 @@
 int calcularagua(List<int>bloques){
+  for (int altura in bloques){
+    if(altura<0){
+      return 0;
+    }
+  }
   if (bloques.length <3 ){
   return 0;
   }
