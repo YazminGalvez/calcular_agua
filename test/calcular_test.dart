@@ -11,6 +11,9 @@ void main() {
   test('Ejemplo simple', () async {
     expect(calcularagua([5,0,5]),equals(5));
   });
+  test('Ejemplo del profesor', () async {
+    expect(calcularagua([6, 0, 3, 4, 1, 3]),equals(7));
+  });
   
 }
   
