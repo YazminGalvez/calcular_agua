@@ -17,6 +17,9 @@ void main() {
   test('Ejemplo pared central muy alta', () async {
     expect(calcularagua([1,10,1]),equals(0));
   });
+  test('Ejemplo cuando las  paredes estan en el mismo nivel', () async {
+    expect(calcularagua([5,5,5]),equals(0));
+  });
   
 }
   
