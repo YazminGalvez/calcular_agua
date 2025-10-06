@@ -14,6 +14,9 @@ void main() {
   test('Ejemplo del profesor', () async {
     expect(calcularagua([6, 0, 3, 4, 1, 3]),equals(7));
   });
+  test('Ejemplo pared central muy alta', () async {
+    expect(calcularagua([1,10,1]),equals(0));
+  });
   
 }
   
